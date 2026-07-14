@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database, Chat History & Uploads
+faiss_index/
+uploaded_pdfs/
+conversation.json
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
